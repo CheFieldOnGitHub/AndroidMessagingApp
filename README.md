@@ -1,2 +1,5 @@
 # AndroidMessagingApp
- Communicate with Android and Desktop platforms
+ 
+ Communicate between Android and Desktop platforms.
+
+ (DesktopMessagingApp)

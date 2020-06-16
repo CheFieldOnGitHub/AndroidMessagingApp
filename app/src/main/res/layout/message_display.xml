@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="70dp"
+    android:id="@+id/rlMsgDisplayContainer"
+    android:paddingVertical="10dp">
+
+    <ImageView
+        android:src="#00ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bkStrip" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentStart="true"
+        android:id="@+id/txtUserEmail"
+        android:layout_margin="2dp"
+        android:text="email@example.com"
+        android:textColor="#84CCB1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@+id/txtUserEmail"
+        android:text="New message Here!"
+        android:id="@+id/txtMsg"
+        android:textSize="20dp"
+        android:layout_margin="2dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/txtUserEmail"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:background="#7C7C7C"
+        android:id="@+id/imgMsg" />
+
+
+</RelativeLayout>
