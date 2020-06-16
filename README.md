@@ -2,4 +2,4 @@
  
  Communicate between Android and Desktop platforms. (DesktopMessagingApp)
  
- NOTE. Application need a strong Internet connection to work.
+ NOTE. Application needs a strong Internet connection to work.
